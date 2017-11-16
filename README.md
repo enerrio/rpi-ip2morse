@@ -7,7 +7,7 @@ Usually a Raspberry Pi is used with a monitor, mouse, and keyboard. But when tho
 
 ## Solution
 ---
-This python program is run on the RPi and searches for the an ip address, converts it to morse code, and outputs it using an LED connected to 2 pins on the RPi. Simply connect a LED to pin 40 and ground of the RPi and plug in the RPi. Then the LED will flash the RPi's IP address and you can then ssh into the RPi without a monitor.
+This python program is run on the RPi and searches for the an ip address, converts it to morse code, and outputs it using an LED connected to 2 pins on the RPi. Simply connect a LED to pin 40 and ground of the RPi and plug in the RPi. Then the LED will flash the RPi's IP address and you can then ssh into the RPi without a monitor. If no IP address is found within 5 minutes then the program exits.
 
 
 I originally documented this project on hackster.io and my write-up can be found [here](https://www.hackster.io/aaron-marquez/find-ip-address-via-morse-code-7ff658). There I give a detailed description of the code as well as how to set up the python script to run during bootup. There is also a video demonstration of the program in action.
